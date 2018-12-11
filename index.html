@@ -1,17 +1,198 @@
-<header>
-	<title>The P-SOCRATES Project</title>
-</header>
+<html>
 
-  
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
 
-<body>
+</head>
 
-	<p>P-SOCRATES (<b>Parallel Software Framework for Time-Critical Many-core Systems</b>) was an European project which intended to allow current and future applications with high-performance and real-time requirements to fully exploit the huge performance opportunities brought by the most advanced many-core processors, whilst ensuring a predictable performance and maintaining (or even reducing) development costs of applications. </p>
-	
-	<p><b>The purpose of P-SOCRATES was to develop an entirely new design framework, from the conceptual design of the system functionality to its physical implementation, to facilitate the deployment of standardized parallel architectures in all kinds of systems.</b></p>
+<body lang=EN-US link="#0563C1" vlink="#954F72">
 
-	<h1>The site is currently under Maintenance</h1>
+<div class=WordSection1>
 
+<p class=MsoNormal align=center style='text-align:center'><img width=324
+height=208 id="Logo" src="./image001.jpg"></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:20.0pt;line-height:107%'>The
+P-SOCRATES Project</span></b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>P-SOCRATES (Parallel Software Framework for Time-Critical
+Many-core Systems) was a European project intended to allow current and future
+applications with high-performance and real-time requirements to fully exploit
+the huge performance opportunities brought by the most advanced many-core
+processors, whilst ensuring a predictable performance and maintaining (or even
+reducing) development costs of applications. </p>
+
+<p class=MsoNormal> </p>
+
+<p class=MsoNormal><b>The purpose of P-SOCRATES was to develop an entirely new
+design framework, from the conceptual design of the system functionality to its
+physical implementation, to facilitate the deployment of standardized parallel
+architectures in all kinds of systems. This framework was released under the
+brand of <a href="https://upscale-sdk.github.io/">UpScale SDK</a>.</b></p>
+
+<p class=MsoNormal>The SDK includes the following components:</p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Source to source compiler – enabling to analyze source code
+OpenMP parallelism annotations, extracting the required information to allow
+for efficient and predictable mapping and scheduling of parallel computations.</p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Lightweight OpenMP tasking runtime – a small-footprint
+implementation of the tasking model of the latest OpenMP specification, which
+uses the information extracted by the compiler to map OpenMP tasks to operating
+systems threads. </p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Embedded Many-Core Operating System – a small kernel
+implementation which efficiently handles parallel threads in manycore
+platforms, supporting both static assignment of threads to cores as well as
+global scheduling approaches.</p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Analysis tools – an integrated toolset for the timing and
+schedulability analysis of real-time parallel applications. </p>
+
+<p class=MsoNormal> </p>
+
+<p class=MsoNormal><b>The scientific and technical work done in the P-SOCRATES
+project was published in the open access book “<a
+href="https://www.riverpublishers.com/research_details.php?book_id=507">High-Performance
+and Time-Predictable Embedded Computing</a>”.</b></p>
+
+<p class=MsoNormal>The topics discussed in the book include: </p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Parallel embedded platforms</p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Programming models</p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Mapping and scheduling of parallel computations</p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Timing and schedulability analysis</p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Runtimes and operating systems</p>
+
+<p class=MsoNormal> </p>
+
+<p class=MsoNormal><b>A short summary of the project can be found <a
+href="P-SOCRATES_Overview.pdf">here</a>.</b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>Contact for further information</b></p>
+
+<p class=MsoNormal>Prof. Luis Miguel Pinho<br>
+(LMP@isep.ipp.pt)</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>This project has received funding from the European Union’s
+Seventh Framework Programme for research, technological development and
+demonstration under grant agreement no 611016</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
 
 </body>
 
+</html>
