@@ -1,2 +1,2 @@
-# p-socrates.github.io-
+# p-socrates.github.io
 P-SOCRATES website
