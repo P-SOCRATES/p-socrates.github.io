@@ -1,0 +1,123 @@
+.lg-units-6 {
+	width: 50%;
+}
+img {
+	height: auto; max-width: 100%;
+}
+h3 {
+	margin: 1em 0px;
+}
+.docs-header {
+	background-image: linear-gradient(45deg, rgb(201, 66, 178), rgb(55, 45, 95)); background-attachment: fixed;
+}
+.docs-sub-header {
+	background-image: linear-gradient(45deg, rgb(201, 66, 178), rgb(55, 45, 95)); background-attachment: fixed;
+}
+.docs-masthead {
+	padding-top: 0px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.docs-title img {
+	width: 160px;
+}
+@media all and (min-width:960px)
+{
+.docs-title {
+	background: rgba(55, 45, 96, 0.2); padding: 10px 20px; border-radius: 0px 0px 6px 6px; left: 0px; top: 0px; position: absolute; box-shadow: 5px 5px 15px #372d60;
+}
+}
+.content-image {
+	max-width: 400px;
+}
+.definition {
+	background: rgb(144, 142, 193); padding: 2em; border-radius: 8px; font-size: 0.82em;
+}
+.definition .header {
+	font-weight: bold;
+}
+.definition dd {
+	background: rgb(242, 242, 242); padding: 5px 10px; margin-left: 11em; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.definition dt {
+	width: 10em; text-align: right; padding-top: 5px; font-weight: normal; position: absolute;
+}
+.content-table {
+	font-size: 0.87em;
+}
+.content-table td {
+	padding: 8px 10px;
+}
+.content-table th {
+	padding: 8px 10px;
+}
+.content-table thead {
+	background: rgb(55, 45, 95); color: white;
+}
+.content-table th {
+	font-weight: normal;
+}
+.content-table .title-cell {
+	background: rgb(144, 142, 193); text-align: right; font-weight: bold; min-width: 180px;
+}
+.content-table tbody tr {
+	background: rgb(247, 247, 247);
+}
+.content-table tbody tr:nth-child(2n) {
+	background: rgb(242, 242, 242);
+}
+.content-table tbody td {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.content-table tbody td.title-cell {
+	border-bottom-color: rgb(112, 109, 175);
+}
+.left {
+	margin-right: 30px; float: left;
+}
+.docs-footer-text {
+	width: auto; text-align: right; font-size: 0.81em;
+}
+@media all and (min-width:960px)
+{
+.docs-footer-text {
+	width: 600px;
+}
+}
+#eu-logo {
+	width: 48px; margin-top: 2px; margin-left: 20px; float: right;
+}
+.docs-nav {
+	padding-top: 15px;
+}
+.view-partners {
+	font-size: 0.81em;
+}
+.view-partners .views-row {
+	background: rgb(247, 247, 247); margin: 1%; padding: 10px; width: 48%; height: 140px; overflow: hidden; float: left; position: relative;
+}
+.view-partners .views-field-field-image {
+	padding: 0px 10px; width: 140px;
+}
+.view-partners .views-field-field-url {
+	left: 155px; top: 1.5em; width: 100%; position: absolute;
+}
+.view-partners .views-field-field-mail {
+	left: 155px; top: 1.5em; width: 100%; position: absolute;
+}
+.view-partners .views-field-field-partner-contact {
+	left: 155px; top: 1.5em; width: 100%; position: absolute;
+}
+.view-partners .views-field-title {
+	left: 155px; top: 1.5em; width: 100%; position: absolute;
+}
+.view-partners .views-field-field-mail {
+	top: 4em;
+}
+.view-partners .views-field-field-partner-contact {
+	top: 3em;
+}
+.view-partners .views-field-field-url {
+	top: 5.5em;
+}
+.view-partners .views-field-title {
+	font-weight: bold;
+}
