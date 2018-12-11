@@ -1,2 +1,2 @@
 # p-socrates.github.io
-P-SOCRATES website under maintenance
+P-SOCRATES website 
